@@ -1,0 +1,13 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>circle.svg</file>
+    <file>delete.svg</file>
+    <file>move.svg</file>
+    <file>line.svg</file>
+    <file>triangle.svg</file>
+    <file>rectangle.svg</file>
+	<file>circle.svg</file>
+	<file>save.svg</file>
+	<file>load.svg</file>
+</qresource>
+</RCC>
