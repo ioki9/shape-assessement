@@ -106,8 +106,12 @@ void ShapeCanvas::mouseReleaseEvent(QMouseEvent *event)
             return;
         }
         this->setMouseTracking(false);
-        m_shapes.push_back(m_active_shape);
-        m_active_shape = nullptr;
+        if(m_active_shape)
+        {
+            m_shapes.push_back(m_active_shape);
+            m_active_shape = nullptr;
+        }
+
     }
     else if(m_mode == Mode::Move)
     {

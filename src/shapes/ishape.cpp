@@ -57,6 +57,7 @@ void IShape::moveEvent(QMoveEvent *event)
 
     m_start = event->pos();
     m_center = {event->pos().x() + m_bound_rect.width()/2,event->pos().y() + m_bound_rect.height()/2};
+    m_draw_params.first = m_start;
     update();
 }
 
